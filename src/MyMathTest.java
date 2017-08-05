@@ -10,4 +10,9 @@ public class MyMathTest {
 		assertEquals(3, mm.sum(1,2));
 	}
 
+	@Test
+	public void testMulti() {
+		MyMath mm = new MyMath();
+		assertEquals(6, mm.multi(2,3));
+	}
 }

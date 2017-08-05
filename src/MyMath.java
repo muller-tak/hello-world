@@ -13,4 +13,13 @@ public class MyMath {
 		return ret;
 		
 	}
+	
+	public int multi(int... args) {
+		int ret = 1;
+		
+		for(int i: args) {
+			ret *= i;
+		}
+		return ret;
+	}
 }
